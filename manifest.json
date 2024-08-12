@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "StartPageXIV",
+    "description": "A simple new tab page primarily for personal use.",
+    "version": "1.0",
+    "action": {
+        "default_popup": "src/index.html",
+        "default_icon": "src/assets/i/icon.png"
+    },
+    "icons": {
+        "16": "src/assets/i/icon.png",
+        "32": "src/assets/i/icon.png",
+        "48": "src/assets/i/icon.png",
+        "128": "src/assets/i/icon.png"
+      },
+    "chrome_url_overrides": {
+        "newtab": "src/index.html"
+    }
+}
